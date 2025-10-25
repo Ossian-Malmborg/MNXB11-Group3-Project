@@ -1,1 +1,4 @@
 # MNXB11-Group3-Project
+
+FalunVSFalsterbo use:
+Clean the data by using cleaning_data_Falsterbo.cxx and cleaning_data_Falun.cxx. Launch these by writing "g++ cleaning_data_city.cxx -o name", replace city with the data to be cleaned and the name can be whatever. Then obtain the CSV file by writing and using "./name" in the terminal. Both Falun and Falsterbo are required for this code. Repeat the step used for cleaning_data but for FalunVSFalsterbo.cxx instead. Then get the CSV file for that in the same way "./name". Now go in to ROOT and write ".L FalunVSFalsterboPlot.C", then obtain the plot by writing  "PlotTemperatureDifference();".
