@@ -8,13 +8,12 @@
 using namespace std;
 
 int main() {
-    std::ifstream inputFile("Falun.csv");
+    std::ifstream inputFile("Uppsala.csv");
     if (!inputFile.is_open()) {
         std::cerr << "Can't open input file!\n";
         return 1;
     }
 
-    // Для хранения самого тёплого и холодного дня по каждому году
     map<int, int> warmest_day;
     map<int, double> warmest_temp;
     map<int, int> coldest_day;
@@ -48,7 +47,6 @@ int main() {
 
         double temp = stod(temperature);
 
-        // Проверяем, является ли эта температура новой максимальной или минимальной
         if (warmest_temp.find(year) == warmest_temp.end() || temp > warmest_temp[year]) {
             warmest_temp[year] = temp;
             warmest_day[year] = day_of_year;
@@ -62,23 +60,23 @@ int main() {
 
     inputFile.close();
 
-    // Сохраняем результат
-    ofstream outfile("results.csv");
+
+    ofstream outfile("Uppsala_warmest_results.csv");
     if (!outfile.is_open()) {
-        cout << "Can't create file results.csv" << endl;
+        cout << "Can't create file Uppsala_results.csv" << endl;
         return 1;
     }
 
     outfile << "year,warmest_day,coldest_day\n";
 
-    // Проходим по всем годам и записываем результат
+
     for (auto &w : warmest_day) {
         int year = w.first;
         outfile << year << "," << warmest_day[year] << "," << coldest_day[year] << "\n";
     }
 
     outfile.close();
-    cout << "File results.csv saved!" << endl;
+    cout << "Uppsala_warmest_results.csv saved!" << endl;
 
     return 0;
 
