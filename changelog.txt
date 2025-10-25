@@ -1,0 +1,4 @@
+2025-10-25 Ossian Malmborg <os2287ma-s@student.lu.se>
+    1. Added the Falun and Falsterbo comparison code
+    2. Cleaned some files, especially Falstebro to Falsterbo
+    3. Added comments to clarify the code
