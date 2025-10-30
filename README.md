@@ -7,3 +7,27 @@ Warmest_Coldest use:
 Clean data using cleaning_data_Uppsala.cxx by writing g++ cleaning_data_Uppsala.cxx -o name and after that ./name in the terminal.
 Create csv with coldes and warmest days of each year using warmest_caldest.cxx by writing g++ warmest_coldest.cxx -o name and after that ./name in the terminal.
 Create plot in root by writing .L warmest_plot.cxx and then plot_results();
+
+Rain_analysis implementation : 
+
+```bash
+# Clone the repository
+git clone https://github.com/Ossian-Malmborg/MNXB11-Group3-Project
+cd MNXB11-Group3-Project/rain_analysis/
+
+# --- Data Cleaning ---
+cd data_clean/
+g++ Rain_data_clean.cxx -o Rain_data_clean
+./Rain_data_clean
+
+# --- Analysis ---
+cd ../analysis/
+g++ analysis.cxx -o analysis
+chmod +x run_analysis_script.sh
+./run_analysis_script.sh
+
+# --- Plotting (ROOT) ---
+cd ../plots/
+./run_root_plots.sh
+
+
