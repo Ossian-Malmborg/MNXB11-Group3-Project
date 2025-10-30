@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 // path to read the file and path to output cleaned dataset
-const std::string IN_PATH  = "../data_raw/SMHI_pthbv_p_t_1961_2025_daily_4326.csv";
+const std::string IN_PATH = "../../datasets/SMHI_pthbv_p_t_1961_2025_daily_4326.csv";
 const std::string OUT_PATH = "../data_clean/Rain_temperature_cleaned.csv";
 
 std::string trim(const std::string& s){

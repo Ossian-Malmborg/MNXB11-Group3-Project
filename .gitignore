@@ -1,0 +1,33 @@
+# Compiled Object Files
+*.o
+*.obj
+
+#Compiled Binaries & Executables
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# Project-Specific Binaries ---
+rain_analysis/data_clean/Rain_data_clean
+rain_analysis/analysis/analysis
+
+# ROOT Compilation Artifacts ---
+*.root
+*.pcm
+*.d
+*.clog
+*.so
+*.log
+
+#Intermediate CSV Files ---
+*.csv
+!datasets/SMHI_pthbv_p_t_1961_2025_daily_4326.csv  # keep only the original dataset
+
+# Temporary / Backup Files ---
+*.tmp
+*.bak
+*~
+*.swp

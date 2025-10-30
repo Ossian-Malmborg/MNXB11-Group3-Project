@@ -13,21 +13,8 @@ Rain_analysis implementation :
 ```bash
 # Clone the repository
 git clone https://github.com/Ossian-Malmborg/MNXB11-Group3-Project
-cd MNXB11-Group3-Project/rain_analysis/
-
-# --- Data Cleaning ---
-cd data_clean/
-g++ Rain_data_clean.cxx -o Rain_data_clean
-./Rain_data_clean
-
-# --- Analysis ---
-cd ../analysis/
-g++ analysis.cxx -o analysis
-chmod +x run_analysis_script.sh
-./run_analysis_script.sh
-
-# --- Plotting (ROOT) ---
-cd ../plots/
-./run_root_plots.sh
-
+cd MNXB11-Group3-Project/
+# Create Graphical Plots
+chmod +x rain_analysis/run_all.sh
+./rain_analysis/run_all.sh
 
