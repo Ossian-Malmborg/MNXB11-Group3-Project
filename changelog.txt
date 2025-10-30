@@ -2,3 +2,9 @@
     1. Added the Falun and Falsterbo comparison code
     2. Cleaned some files, especially Falstebro to Falsterbo
     3. Added comments to clarify the code
+2025-10-25 Aleksei Jemeljanov <al2515je-s@student.lu.se>
+    1. Added the file warmest_cldest.cxx
+    2. Added the file warmest_plot.cxx
+    3. Added comments to clarify the code
+2025-10-22 Aleksei Jemeljanov <al2515je-s@student.lu.se>
+    1. Added filest for cleaning
