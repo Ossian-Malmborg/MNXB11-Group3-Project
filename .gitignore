@@ -22,10 +22,6 @@ rain_analysis/analysis/analysis
 *.so
 *.log
 
-#Intermediate CSV Files ---
-*.csv
-!datasets/SMHI_pthbv_p_t_1961_2025_daily_4326.csv  # keep only the original dataset
-
 # Temporary / Backup Files ---
 *.tmp
 *.bak
