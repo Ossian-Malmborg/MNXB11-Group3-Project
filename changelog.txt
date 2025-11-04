@@ -26,7 +26,6 @@
 
 2025-10-27 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
     1. First attempt at the source code for extracting the temperature on a given day. Created a code which only printed out the temperature on a given day of the year, no storage or commits made.
-
  
 2025-10-25 Ossian Malmborg <os2287ma-s@student.lu.se>
     1. Added the Falun and Falsterbo comparison code
