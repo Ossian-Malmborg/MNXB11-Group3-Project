@@ -23,7 +23,7 @@ g++ temperature_given_day.cxx -o temperature_given_day
 
 # having obtained the necessary files, the analysis is performed in root:
 root -l
-.L temperature_given_dau.C
+.L temperature_given_day.C
 tempgivenday_hist();
 
 # a histogram should now pop-up.
