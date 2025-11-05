@@ -1,3 +1,7 @@
+2025-11-05 Aleksei Jemeljanov <al2515je-s@student.lu.se>
+    1. Updated the changelog.txt
+    2. Updated the README.md
+
 2025-11-05 Vishvam Patel <vi8112pa-s@student.lu.se>
     1. Updated the changelog.txt 
 
@@ -17,6 +21,12 @@
 2025-10-31 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
     1. Added the histogram.png file for the presentation.
         *added tempgivenday.png
+
+2025-10-30 Aleksei Jemeljanov <al2515je-s@student.lu.se>
+    1. Updated the warmest_plot.cxx
+        * fixed the problem with the gaussian
+    2. Updated the README.md
+    3. Updated the changelog.txt
 
 2025-10-30 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
     1. Created the macro which, based on the source code for the temperature on a given day, creates a root histogram of the temperature values for a given day.
