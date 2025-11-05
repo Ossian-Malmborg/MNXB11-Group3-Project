@@ -1,3 +1,11 @@
+2025-11-05 Vishvam Patel <vi8112pa-s@student.lu.se>
+    1. Updated the changelog.txt 
+
+2025-11-04 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Updated the changelog.txt
+    2. Updated the README.md 
+        *added instructions on how to properly run temperature_given_day.cxx, temperature_given_day.C, and how to obtain the histogram.
+
 2025-10-30 Akash Arjun ak1767ar-s@student.lu.se
     1. Downloaded raw data about precipitation and temperature from https://www.smhi.se/data/nederbord-och-fuktighet/nederbord/griddad-nederbord--och-temperaturdata of Lund and Uppsala.
     2. Cleaned the file into Rain_temperature_cleaned.csv
@@ -5,14 +13,39 @@
     4. Created a bash file to store the analysed data for a particular City and Year into results file at once
     5.Created root file to plot data and bash script to run the root file on all analysed csv files in results
     6. Plots all stored as png in figures folder
- 
+
+2025-10-31 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Added the histogram.png file for the presentation.
+        *added tempgivenday.png
+
+2025-10-30 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Created the macro which, based on the source code for the temperature on a given day, creates a root histogram of the temperature values for a given day.
+        *added temperature_given_day.C
+
+2025-10-28 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Created the source code for extracting, storing and creating the data file for the temperature of a given day of the month for all the years in the Falsterbo datafile.
+        *added temperature_given_day.cxx
+        *submitted the first pull request
+
+2025-10-27 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Attempted at the source code for extract the temperature on a given day. Created a code which only printed out the temperature on a given day of the year, no storage or commits made.
+
+2025-10-26 Vishvam Patel <vi8112pa-s@student.lu.se>
+    1. Attempted to plot the temperature on a given day by extracting the cleaned data. Sent it to Sofia as I had some ROOT issues. No commits made. I had cleaned the data for a differnet data set before merging the groups; however, I just had to change the original SMHI data file for the chosen data for this group. 
+
 2025-10-25 Ossian Malmborg <os2287ma-s@student.lu.se>
     1. Added the Falun and Falsterbo comparison code
     2. Cleaned some files, especially Falstebro to Falsterbo
     3. Added comments to clarify the code
+
 2025-10-25 Aleksei Jemeljanov <al2515je-s@student.lu.se>
     1. Added the file warmest_cldest.cxx
     2. Added the file warmest_plot.cxx
     3. Added comments to clarify the code
+
+2025-10-23 Vishvam Patel <vi8112pa-s@student.lu.se>
+    1. Finished writing the data cleaning files for any given data set
+    2. Compared the data cleaning files with the ones added by Aleksei Jemeljanov
+
 2025-10-22 Aleksei Jemeljanov <al2515je-s@student.lu.se>
     1. Added filest for cleaning
