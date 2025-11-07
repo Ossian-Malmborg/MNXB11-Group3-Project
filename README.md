@@ -49,20 +49,7 @@ tempgivenday_hist();
 # a histogram should now pop-up.
 
 ```
-
-Rain_analysis implementation : 
-
-```bash
-# Clone the repository
-git clone https://github.com/Ossian-Malmborg/MNXB11-Group3-Project
-cd MNXB11-Group3-Project/
-# Create Graphical Plots
-chmod +x rain_analysis/run_all.sh
-./rain_analysis/run_all.sh
-```
-
-
-**Rain_analysis** implementation : 
+## **Rain_analysis** implementation : 
 
 The Rain_analysis project processes the raw SMHI file **SMHI_pthbv_p_t_1961_2025_daily_4326.csv** that consists of precipitation and temperature data.  
 It performs three main tasks:
@@ -70,7 +57,7 @@ It performs three main tasks:
 2. **Analysis** — computes monthly rainfall and temperature summaries for selected stations and years.  
 3. **Plotting** — visualises rainfall, temperature, and rainy-day frequency variation throughout the years(1961 and 2024) specifically comparing monthly precipitation(mm) with average maximum and minimum temperatures(°C) and the number of rainy days per month of the cities Uppsala and Lund.
 
-## Instant Implementation
+### Instant Implementation
 
 ```bash
 # Clone the repository
@@ -85,7 +72,7 @@ chmod +x rain_analysis/run_all.sh
 cd rain_analysis/figures
 ```
 
-## Step by Step Implementation
+### Step by Step Implementation
 
 ```bash
 # Clone the repository and move into the rain_analysis folder.
