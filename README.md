@@ -49,14 +49,59 @@ tempgivenday_hist();
 # a histogram should now pop-up.
 
 ```
+## **Rain_analysis** implementation : 
 
-Rain_analysis implementation : 
+The Rain_analysis project processes the raw SMHI file **SMHI_pthbv_p_t_1961_2025_daily_4326.csv** that consists of precipitation and temperature data.  
+It performs three main tasks:
+1. **Data Cleaning** — cleaning of the raw dataset into a clean csv file that can be used.  
+2. **Analysis** — computes monthly rainfall and temperature summaries for selected stations and years.  
+3. **Plotting** — visualises rainfall, temperature, and rainy-day frequency variation throughout the years(1961 and 2024) specifically comparing monthly precipitation(mm) with average maximum and minimum temperatures(°C) and the number of rainy days per month of the cities Uppsala and Lund.
+
+### Instant Implementation
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ossian-Malmborg/MNXB11-Group3-Project
 cd MNXB11-Group3-Project/
-# Create Graphical Plots
+
+# Run everything automatically to create graphical plots
 chmod +x rain_analysis/run_all.sh
 ./rain_analysis/run_all.sh
 
+#Access the plots
+cd rain_analysis/figures
+```
+
+### Step by Step Implementation
+
+```bash
+# Clone the repository and move into the rain_analysis folder.
+git clone https://github.com/Ossian-Malmborg/MNXB11-Group3-Project
+cd MNXB11-Group3-Project/rain_analysis/
+
+# Compile and run the data cleaning program.
+cd data_clean/
+g++ Rain_data_clean.cxx -o Rain_data_clean
+./Rain_data_clean
+
+# Go to rain_analysis/data_clean/Rain_temperature_cleaned.csv if you want to access the cleaned dataset.
+
+# Compile and run the analysis.
+cd ..
+cd analysis/
+g++ analysis.cxx -o analysis
+chmod +x run_analysis_script.sh
+./run_analysis_script.sh
+
+# Go to rain_analysis/results if you want to access the monthly rainfall and temperature summaries for selected stations(Lund and Uppsala) and years(1961 and 2024).
+
+# Run the plotting script.
+cd ..
+cd plots/
+chmod +x run_root_plots.sh
+./run_root_plots.sh
+
+#Access the plots.
+cd ..
+cd figures
+```
