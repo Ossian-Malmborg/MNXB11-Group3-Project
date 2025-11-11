@@ -27,3 +27,6 @@ rain_analysis/analysis/analysis
 *.bak
 *~
 *.swp
+
+#vscode file
+*.vscode/
