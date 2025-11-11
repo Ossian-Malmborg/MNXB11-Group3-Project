@@ -1,3 +1,8 @@
+2025-11-11 Sofia Slaniceanu <sofia.slaniceanu.0805@student.lu.se>
+    1. Added the .pdf report file
+        *added MNXB11_Final_Project_Report.pdf
+    2. Updated the changelog.txt
+
 2025-11-05 Aleksei Jemeljanov <al2515je-s@student.lu.se>
     1. Updated the changelog.txt
     2. Updated the README.md
